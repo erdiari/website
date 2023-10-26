@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "890cc0534bd8cb78",
+    "id": "1bf33e75635cb73e",
     "type": "split",
     "children": [
       {
-        "id": "b21b4261316c3184",
+        "id": "7f39ac7c3cfb5f5c",
         "type": "tabs",
         "children": [
           {
-            "id": "17941d2de3543158",
+            "id": "e609c4946e1ac860",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dates.md",
+                "file": "_notes/Website-development.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1c5eab93915dc556",
+    "id": "c292af305db6e949",
     "type": "split",
     "children": [
       {
-        "id": "84305f4c75846e78",
+        "id": "240c3088a7995643",
         "type": "tabs",
         "children": [
           {
-            "id": "bfc1cf1f357be611",
+            "id": "49f2ad123f7ca0eb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "01464096b7d95416",
+            "id": "604dbe2e34decfd9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "0bfeeb39f124b58f",
+            "id": "e802aea515c31de3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "15539d9bd7e5e953",
+    "id": "aaecd13f1c017648",
     "type": "split",
     "children": [
       {
-        "id": "7ba78bc15007fec3",
+        "id": "b724f9ef81a273fe",
         "type": "tabs",
         "children": [
           {
-            "id": "2b9b982aa850e87e",
+            "id": "b31ab6224ec068bd",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dates.md",
+                "file": "_notes/Website-development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "70ccbad5e7c5ed94",
+            "id": "1e304f2bfed6aeb7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dates.md",
+                "file": "_notes/Website-development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "baf07a2f317f7df8",
+            "id": "ed7a8813fb77c168",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "d2f472a33a6a6fef",
+            "id": "62518e2cbc648986",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "dates.md"
+                "file": "_notes/Website-development.md"
               }
             }
           }
@@ -146,19 +146,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "17941d2de3543158",
+  "active": "e609c4946e1ac860",
   "lastOpenFiles": [
-    "about.md",
-    "dates.md",
-    "index.md",
+    "deleted_notes/how-markdown-is-rendered.md",
+    "_notes/Website-development.md",
+    "deleted_notes/Obsidian integration.md",
+    "deleted_notes/How to use the special features.md",
+    "deleted_notes",
+    "deleted_notes/How-to-setup-this-site.md",
+    "tags.md",
+    "search_notes.json",
+    "search.json",
     "notes.md",
-    "README.md",
-    "_notes/Obsidian integration.md",
+    "netlify.toml",
+    "index.md",
+    "debug.yml",
+    "dates.md",
+    "blog.code-workspace",
+    "autocomplete.txt",
+    "assets/js/simple-jekyll-search.min.js",
+    "assets/js/contextmenu.js",
     "assets/img/screenshot.png",
     "assets/img/profile.png",
     "assets/img/new notes pref.png",
     "assets/img/fork_button.jpg",
     "assets/img/favicon.png",
-    "tags.md"
+    "assets/css/style.css",
+    "about.md",
+    "README.md"
   ]
 }
