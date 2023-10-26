@@ -148,20 +148,23 @@
   },
   "active": "e609c4946e1ac860",
   "lastOpenFiles": [
-    "deleted_notes/how-markdown-is-rendered.md",
+    "_includes/Untitled.md",
     "_notes/Website-development.md",
     "deleted_notes/Obsidian integration.md",
+    "tags.md",
+    "notes.md",
+    "README.md",
+    "index.md",
+    "dates.md",
+    "about.md",
+    "deleted_notes/how-markdown-is-rendered.md",
     "deleted_notes/How to use the special features.md",
     "deleted_notes",
     "deleted_notes/How-to-setup-this-site.md",
-    "tags.md",
     "search_notes.json",
     "search.json",
-    "notes.md",
     "netlify.toml",
-    "index.md",
     "debug.yml",
-    "dates.md",
     "blog.code-workspace",
     "autocomplete.txt",
     "assets/js/simple-jekyll-search.min.js",
@@ -171,8 +174,6 @@
     "assets/img/new notes pref.png",
     "assets/img/fork_button.jpg",
     "assets/img/favicon.png",
-    "assets/css/style.css",
-    "about.md",
-    "README.md"
+    "assets/css/style.css"
   ]
 }
