@@ -20,7 +20,8 @@ So i write my blog sites using obsidian, push them to a GitHub repository. Then 
 ## Technical details
 First step was to fork [note.link](https://github.com/Maxence-L/notenote.link), the obsidian optimized theme for Jekyll. Theme files in Jekyll are set of html template files. Difference between a template files and normal html is that template files have places specified with custom syntax. This places are populated with content from markdown files. For example, markdown file has a title attribute and template has a place for titles.The `note.link` is a fork of [simply-jekyll](https://github.com/raghudotcc/simply-jekyll) and it has obsidian specific features.
 
-```html
+%% 
+ ```html
 <main>
 	<h1>{{page.title}}</h1>
 	{%- include content.html -%}
@@ -29,11 +30,12 @@ First step was to fork [note.link](https://github.com/Maxence-L/notenote.link), 
 	{%- include related.html -%}
 </main>
 ```
+%%
 _actual code from_ [_layouts](https://github.com/Maxence-L/notenote.link/tree/master/_layouts)
 
 The second step was to actually set up GitHub to create and host static html files. As is, the `note.link` isn't supported by GitHub pages. We have to change some files according to this [issue](https://github.com/Maxence-L/notenote.link/issues/5#issuecomment-762508069). 
-Then we have to setup GitHub pages. To do that we have to find pages section at repository settings. We have to change deployment source from `deploy from branch`to `GitHub Actions`. Then we are going select GitHub Pages Jekyll. (You can set your domain name in there too!)
-![[jekyll-github-pages.png]]
+Then we have to setup GitHub pages. To do that we have to find pages section at repository settings. We have to change deployment source from `deploy from branch` to  `GitHub Actions` . Then we are going select GitHub Pages Jekyll. (You can set your domain name in there too!)
+![change](/assets/img/jekyll-github-pages.png)
 This creates a sample config for Github Actions, GitHub's own CI/CD tool. Github actions, uses a special [YAML file](https://github.com/erdiari/website/blob/master/.github/workflows/jekyll-gh-pages.yml) to specify  which actions to do and when. This sample setup, builds Jekyll site when a commit is pushed to main branch and deploys it. I deemed it is enough for my own use case. 
 
 Last step is setting up the obsidian to work with GitHub. First we create a empty vault. Then we are going to turn on community plugins and download [obsidian-git](https://github.com/denolehov/obsidian-git). It comes bundled with a git implementation called [isomorphic-git](https://isomorphic-git.org/) which uses pure JS, which means we can use git even thought there is no git installed at in our environment. This is necessary if we aim to use it with our phones. 
