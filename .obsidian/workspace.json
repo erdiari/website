@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Website-development.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Website-development.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Website-development.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Website-development.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,14 +148,14 @@
   },
   "active": "e609c4946e1ac860",
   "lastOpenFiles": [
+    "notes.md",
+    "index.md",
+    "dates.md",
+    "about.md",
+    "templates/Note template.md",
+    "README.md",
     "_notes/self-host.md",
     "_notes/Website-development.md",
-    "templates/Note template.md",
-    "about.md",
-    "dates.md",
-    "index.md",
-    "notes.md",
-    "README.md",
     "deleted_notes/Obsidian integration.md",
     "deleted_notes/How-to-setup-this-site.md",
     "deleted_notes/how-markdown-is-rendered.md",
