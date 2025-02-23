@@ -1,1 +1,1 @@
-Obsidian vault and Jekyll config for my blogsite [erdiari.dev]. For more read [this](Obsidian vault and Jekyll config for my website).
+Obsidian vault and Jekyll config for my [blog](erdiari.dev). For more read [this](https://blog.erdiari.dev/notes/Website-development) .
