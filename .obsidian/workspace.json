@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "deleted_notes/How to use the special features.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "How to use the special features"
             }
           }
         ]
@@ -38,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "deleted_notes/How to use the special features.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for How to use the special features"
             }
           },
           {
@@ -102,10 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "deleted_notes/How to use the special features.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from How to use the special features"
             }
           },
           {
@@ -115,8 +128,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
-              }
+                "file": "deleted_notes/How to use the special features.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of How to use the special features"
             }
           }
         ]
@@ -146,20 +168,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e609c4946e1ac860",
+  "active": "49f2ad123f7ca0eb",
   "lastOpenFiles": [
+    "_notes/self-host.md",
+    "deleted_notes/How to use the special features.md",
+    "deleted_notes/How-to-setup-this-site.md",
+    "deleted_notes/how-markdown-is-rendered.md",
+    "_notes/Website-development.md",
+    "README.md",
     "notes.md",
     "index.md",
     "dates.md",
     "about.md",
     "templates/Note template.md",
-    "README.md",
-    "_notes/self-host.md",
-    "_notes/Website-development.md",
     "deleted_notes/Obsidian integration.md",
-    "deleted_notes/How-to-setup-this-site.md",
-    "deleted_notes/how-markdown-is-rendered.md",
-    "deleted_notes/How to use the special features.md",
     "tags.md",
     "assets/img/favicon.png",
     "assets/img/fork_button.jpg",
